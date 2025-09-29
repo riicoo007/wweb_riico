@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>contact</title>
+  </head>
+  <body>
+    <a href="index.html"><button>home</button></a>
+    <a href="contact.html"><button>contact</button></a>
+    <a href="info.html"><button>more info</button></a>
+    <a href="vukhi.html"><button>weapon</button></a>
+    <a href="nhiem_vu_da_hoan_thanh.html"><button>nhiệm vụ</button></a>
+    <hr />
+    <div class="item-card">
+      <div class="item-header">
+        <span class="item-id">RICO-EXP-001</span>
+        <span class="danger-level danger-high">HIGH</span>
+      </div>
+      <div class="item-image">
+        <img src="path/to/dynamite.png" alt="Dynamite" />
+      </div>
+      <div class="item-info">
+        <h3>Dynamite</h3>
+        <p>Phân loại: Chất Nổ</p>
+        <button class="view-details-btn">VIEW DETAILS</button>
+      </div>
+      <!DOCTYPE html>
+      <html lang="en">
+        <head>
+          <meta charset="UTF-8" />
+          <meta
+            name="viewport"
+            content="width=device-width, initial-scale=1.0"
+          />
+          <title>Rico's Arsenal - Weapon Inventory</title>
+          <link rel="stylesheet" href="style.css" />
+        </head>
+        <body>
+          <header class="main-header">
+            <div class="logo">Rico's Arsenal</div>
+            <nav class="main-nav">
+              <a href="index.html" class="nav-button">Home</a>
+              <a href="arsenal.html" class="nav-button active">Arsenal</a>
+              <a href="missions.html" class="nav-button">Missions</a>
+              <a href="about.html" class="nav-button">About Rico</a>
+              <a href="contact.html" class="nav-button">Contact</a>
+            </nav>
+            <button class="emergency-eject-btn">EMERGENCY EJECT</button>
+          </header>
+
+          <main class="arsenal-page">
+            <h1 class="page-title">
+              Arsenal Inventory: Rico's Unpredictable Cache
+            </h1>
+            <p class="page-description">
+              Bên trong chú chim cánh cụt bé nhỏ này là một kho tàng vô tận của
+              các công cụ, chất nổ và mọi thứ khác có thể cần thiết cho một
+              nhiệm vụ. Hãy duyệt qua, nhưng đừng chạm vào bất cứ thứ gì mà
+              không có găng tay.
+            </p>
+
+            <section class="filter-section">
+              <input
+                type="text"
+                class="search-bar"
+                placeholder="Search for item or ID..."
+              />
+              <div class="category-filters">
+                <button class="filter-btn active" data-category="all">
+                  All Items
+                </button>
+                <button class="filter-btn" data-category="explosives">
+                  Explosives
+                </button>
+                <button class="filter-btn" data-category="tools">Tools</button>
+                <button class="filter-btn" data-category="food">Food</button>
+                <button class="filter-btn" data-category="misc">Misc.</button>
+              </div>
+            </section>
+
+            <section class="item-display-grid">
+              <div class="item-card" data-category="explosives">
+                <div class="item-header">
+                  <span class="item-id">RICO-EXP-001</span>
+                  <span class="danger-level danger-high">HIGH</span>
+                </div>
+                <div class="item-image">
+                  <img
+                    src="https://via.placeholder.com/150/ff0000/ffffff?text=Dynamite"
+                    alt="Dynamite"
+                  />
+                </div>
+                <div class="item-info">
+                  <h3>Dynamite</h3>
+                  <p>Phân loại: Chất Nổ</p>
+                  <button class="view-details-btn">VIEW DETAILS</button>
+                </div>
+              </div>
+
+              <div class="item-card" data-category="explosives">
+                <div class="item-header">
+                  <span class="item-id">RICO-EXP-002</span>
+                  <span class="danger-level danger-high">HIGH</span>
+                </div>
+                <div class="item-image">
+                  <img
+                    src="https://via.placeholder.com/150/ffa500/ffffff?text=Time+Bomb"
+                    alt="Time Bomb"
+                  />
+                </div>
+                <div class="item-info">
+                  <h3>Time Bomb</h3>
+                  <p>Phân loại: Chất Nổ</p>
+                  <button class="view-details-btn">VIEW DETAILS</button>
+                </div>
+              </div>
+
+              <div class="item-card" data-category="tools">
+                <div class="item-header">
+                  <span class="item-id">RICO-TOOL-001</span>
+                  <span class="danger-level danger-low">LOW</span>
+                </div>
+                <div class="item-image">
+                  <img
+                    src="https://via.placeholder.com/150/cccccc/000000?text=Wrench"
+                    alt="Wrench"
+                  />
+                </div>
+                <div class="item-info">
+                  <h3>Wrench</h3>
+                  <p>Phân loại: Công Cụ</p>
+                  <button class="view-details-btn">VIEW DETAILS</button>
+                </div>
+              </div>
+
+              <div class="item-card" data-category="food">
+                <div class="item-header">
+                  <span class="item-id">RICO-FOOD-001</span>
+                  <span class="danger-level danger-low">LOW</span>
+                </div>
+                <div class="item-image">
+                  <img
+                    src="https://via.placeholder.com/150/7cb9e8/ffffff?text=Fish"
+                    alt="Fish"
+                  />
+                </div>
+                <div class="item-info">
+                  <h3>Fish</h3>
+                  <p>Phân loại: Đồ Ăn</p>
+                  <button class="view-details-btn">VIEW DETAILS</button>
+                </div>
+              </div>
+
+              <div class="item-card" data-category="misc">
+                <div class="item-header">
+                  <span class="item-id">RICO-MISC-001</span>
+                  <span class="danger-level danger-low">LOW</span>
+                </div>
+                <div class="item-image">
+                  <img
+                    src="https://via.placeholder.com/150/f0e68c/000000?text=Paperclip"
+                    alt="Paperclip"
+                  />
+                </div>
+                <div class="item-info">
+                  <h3>Kẹp Giấy</h3>
+                  <p>Phân loại: Linh Tinh</p>
+                  <button class="view-details-btn">VIEW DETAILS</button>
+                </div>
+              </div>
+
+              <div class="item-card" data-category="explosives">
+                <div class="item-header">
+                  <span class="item-id">RICO-EXP-003</span>
+                  <span class="danger-level danger-high">HIGH</span>
+                </div>
+                <div class="item-image">
+                  <img
+                    src="https://via.placeholder.com/150/50c878/ffffff?text=Grenade"
+                    alt="Grenade"
+                  />
+                </div>
+                <div class="item-info">
+                  <h3>Grenade</h3>
+                  <p>Phân loại: Chất Nổ</p>
+                  <button class="view-details-btn">VIEW DETAILS</button>
+                </div>
+              </div>
+            </section>
+
+            <section class="random-item-generator">
+              <h2 class="section-title">Can't Decide? Ask Rico!</h2>
+              <p>
+                Để Rico tự chọn một món đồ cho bạn. Đừng lo lắng, anh ấy biết
+                mình đang làm gì... hầu hết thời gian.
+              </p>
+              <button class="ask-rico-btn">ASK RICO!</button>
+              <div id="random-item-display" class="item-card hidden"></div>
+            </section>
+          </main>
+
+          <footer class="main-footer">
+            <p>
+              &copy; 2024 Rico's Arsenal - Unofficial Fan Site. All characters &
+              trademarks belong to DreamWorks Animation.
+            </p>
+            <p>This site is for educational and fan purposes only.</p>
+          </footer>
+
+          <script src="script.js"></script>
+        </body>
+      </html>
+    </div>
+  </body>
+</html>
